@@ -3,6 +3,10 @@ r*{
     padding: 0 24px;
 }
 
+#grad {
+  background-image: linear-gradient(to bottom right, firebrick, yellow);
+}
+
 body{
     background-color:gold;
 }
