@@ -3,31 +3,65 @@ r*{
     padding: 0 24px;
 }
 
-#grad {
-  background-image: linear-gradient(to bottom right, firebrick, yellow);
-}
+
 
 body{
-    background-color:gold;
+    background-color:gold; 
 }
 
 .foto_do_pato{
-    width: 150px;
+    width: 190px;
 }
 
 .cabecalho{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: firebrick;
     color: #FFFF;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 24px 0;
 }
 
 .cabecalho-lista {
-    font-size: 24px;
+    margin: 0 16px;
+    font-size: 20px;
     display: inline-block;
 }
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(firebrick,gold);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
 h1 {
-    font-size: 150px;
+    font-size: 100px;
+}
+
+.escola-div-canteudo{
+    width: 35%;
+}
+
+.escola-titulo{
+    padding: 20px 0;
+}
+
+.estudante-imagem {
+    width: 120px;
+}
+
+.estudante-icone {
+    width: 24px;
+}
+
+.estudante-div{
+    text-align: center;
 }
